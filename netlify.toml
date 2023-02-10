@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/gated-path"
+  to = "/destination-path"
+  status = 200
+  conditions = { Role = ["admin"] }
+  force = true
+
+[[redirects]]
+  from = "/other-gated-path"
+  to = "/other-destination-path"
+  status = 200
+  conditions = { Role = ["admin"] }
+  force = true
+

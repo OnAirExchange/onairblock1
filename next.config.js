@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  reactRoot: 'static',
   images: {
     domains: ['encrypted-tbn0.gstatic.com', 'cdn.sanity.io'],
   },
